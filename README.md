@@ -60,8 +60,7 @@ The other arguments come by groups of three:
 
 - **line_regex**, a regex for the lines to be customized
 
-- **face**, the face (i.e., foreground and background) you want for a line of type
-- *decor_id*
+- **face**, the face (i.e., foreground and background) you want for a line of type *decor_id*
 
 
 # Example
@@ -85,7 +84,7 @@ The first line for `shadow-set` says that **markdown** is our target filetype.
 The second line specifies colorization for buffer regions we call "code": after the
 opening and closing regexes, we specify **nofirst** and **nolast** to exclude the
 first and last lines of each region, as these will be colorized separately via
-'shadow-decorate`. The next argument is our chosen face for the regions,
+`shadow-decorate`. The next argument is our chosen face for the regions,
 "default,rgb:c9c9c9" (a gray background).
 
 The third line specifies colorization for buffer regions we call "note": after

@@ -102,8 +102,8 @@ The first line for `shadow-decorate` says that we will decorate lines for the
 
 # Note on regexes
 
-The `shadow` plugin implements commands that surround regular expressions with single
-quotes. Accordingly, the best way to include single quotes in a regex for 'shadow.kak'
+The shadow plugin implements commands that surround regular expressions with single
+quotes. Accordingly, the best way to include single quotes in a regex for `shadow.kak`
 is to replace each of them by `\x27` (which specifies the single-quote character via
 its hexadecimal codepoint).
 
